@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "description": "Starter template to get up and running quickly with Vue and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "author": {
+    "name": "Chromatic",
+    "email": "https://chromatic.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-vue-template"
+    "url": "git+https://github.com/chromaui/intro-storybook-vue-template.git"
   },
   "bugs": {
     "url": "https://github.com/chromaui/intro-storybook-vue-template/issues"
@@ -19,7 +22,8 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "chromatic": "npx chromatic --project-token=e9bd9918fd9b"
   },
   "dependencies": {
     "chromatic": "^6.10.2",
@@ -52,5 +56,8 @@
     "msw": "^0.42.0",
     "msw-storybook-addon": "^1.6.3",
     "vue-loader": "^16.8.3"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/chromaui/intro-storybook-vue-template#readme",
+  "_id": "intro-storybook-vue-template@0.1.0"
 }
